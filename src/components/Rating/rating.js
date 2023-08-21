@@ -28,6 +28,11 @@ const Rating = () => {
           <span className="rating-number">5</span>
         </li>
       </ul>
+      <div className="rating-button-container">
+        <button type="button">
+          <h3>Submit</h3>
+        </button>
+      </div>
     </Card>
   )
 }

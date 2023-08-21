@@ -12,5 +12,10 @@
 
 .rating-number_container {
   border: 1px solid;
+  display: inline-flex;
   list-style-type: none;
+}
+
+.rating-number_container li {
+  border: 1px solid;
 }
