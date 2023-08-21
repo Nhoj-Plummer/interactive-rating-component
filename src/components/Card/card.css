@@ -1,9 +1,11 @@
 /* General container */
 .card-container {
   display: flex;
-  max-width: 50rem;
-  max-height: 37.5rem;
+  width: 50rem;
+  height: 37.5rem;
   align-items: center;
   justify-content: center;
   border: 1px solid;
+  background: var(--color-darkblue);
+  border-radius: 5%;
 }
