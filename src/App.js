@@ -1,10 +1,10 @@
 import "./App.css"
-import { Rating } from "./components"
+import { Card } from "./components"
 
 function App() {
   return (
     <>
-      <Rating />
+      <Card />
     </>
   )
 }
