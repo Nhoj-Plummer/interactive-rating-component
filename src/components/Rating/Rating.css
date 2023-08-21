@@ -1,0 +1,16 @@
+.rating-star_img_container {
+  border: 1px solid;
+}
+
+.rating-header-text {
+  border: 1px solid;
+}
+
+.rating-text {
+  border: 1px solid;
+}
+
+.rating-number_container {
+  border: 1px solid;
+  list-style-type: none;
+}

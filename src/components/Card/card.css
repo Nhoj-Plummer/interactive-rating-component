@@ -1,11 +1,9 @@
 /* General container */
 .card-container {
-  display: flex;
   width: 50rem;
   height: 37.5rem;
-  align-items: center;
-  justify-content: center;
+  padding: 2px;
   border: 1px solid;
   background: var(--color-darkblue);
-  border-radius: 5%;
+  border-radius: 1.25rem;
 }
