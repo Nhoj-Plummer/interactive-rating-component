@@ -1,9 +1,9 @@
 .rating-star_img_container {
-  width: 5rem;
-  height: 5rem;
+  max-width: 5rem;
+  max-height: 5rem;
   padding: 1.563rem;
   border-radius: 50%;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   background-color: #262f38;
 }
 
@@ -12,20 +12,43 @@
   height: 100%;
 }
 
+/*Text Section */
 .rating-header-text {
-  border: 1px solid;
+  font-size: 2.5rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  margin-bottom: 35px;
 }
 
 .rating-text {
-  border: 1px solid;
+  color: var(--color-mediumgrey);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2rem;
+  margin-bottom: 35px;
 }
 
+/*The Ratings Section */
 .rating-number_container {
   border: 1px solid;
   display: inline-flex;
+  width: 100%;
   list-style-type: none;
 }
 
 .rating-number_container li {
+  height: 4rem;
+  width: 4rem;
+  margin: auto;
+  padding: 1.25rem;
+  border-radius: 50%;
+  text-align: center;
   border: 1px solid;
+  background-color: #262f38;
+}
+
+.rating-number_container li span {
+  color: #7a828d;
+  font-family: var(--font-family);
 }
