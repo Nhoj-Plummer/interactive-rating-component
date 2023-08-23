@@ -50,6 +50,19 @@
   font-family: var(--font-family);
 }
 
+.rating-number.active {
+  height: 4rem;
+  width: 4rem;
+  margin: auto;
+  padding-top: 1.4rem;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-family);
+}
+
 .rating-number_container li:hover {
   background-color: var(--color-lightgrey);
   color: var(--color-white);

@@ -20,19 +20,19 @@ const Rating = () => {
       <h2 className="rating-header-text">How did we do?</h2>
       <p className="rating-text">Please let us know how we did with your support request. All feedback is appreciated to help us imporve our offering!</p>
       <ul className="rating-number_container">
-        <li className={selectChoice.dataOne ? "rating-number active" : "rating-number_container-initial"}>
+        <li className={selectChoice.dataOne ? "rating-number active" : "rating-number_container-initial"} onClick={() => setSelectChoice({ dataOne: true, dataTwo: false, dataThree: false, dataFour: false, dataFive: false })}>
           <span className="rating-number">1</span>
         </li>
-        <li className="rating-number_container-initial">
+        <li className={selectChoice.dataTwo ? "rating-number active" : "rating-number_container-initial"} onClick={() => setSelectChoice({ dataOne: false, dataTwo: true, dataThree: false, dataFour: false, dataFive: false })}>
           <span className="rating-number">2</span>
         </li>
-        <li className="rating-number_container-initial">
+        <li className={selectChoice.dataThree ? "rating-number active" : "rating-number_container-initial"} onClick={() => setSelectChoice({ dataOne: false, dataTwo: false, dataThree: true, dataFour: false, dataFive: false })}>
           <span className="rating-number">3</span>
         </li>
-        <li className="rating-number_container-initial">
+        <li className={selectChoice.dataFour ? "rating-number active" : "rating-number_container-initial"} onClick={() => setSelectChoice({ dataOne: false, dataTwo: false, dataThree: false, dataFour: true, dataFive: false })}>
           <span className="rating-number">4</span>
         </li>
-        <li className="rating-number_container-initial">
+        <li className={selectChoice.dataFive ? "rating-number active" : "rating-number_container-initial"} onClick={() => setSelectChoice({ dataOne: false, dataTwo: false, dataThree: false, dataFour: false, dataFive: true })}>
           <span className="rating-number">5</span>
         </li>
       </ul>
