@@ -3,7 +3,7 @@ import "./Rating.css"
 import Card from "../Card/card"
 import Star from "../../assets/icon-star.svg"
 
-const Rating = () => {
+const Rating = (rating, ) => {
   const [selectChoice, setSelectChoice] = useState({
     dataOne: false,
     dataTwo: false,
