@@ -37,19 +37,26 @@
   margin-bottom: 35px;
 }
 
-.rating-number_container li {
+.rating-number_container-initial {
   height: 4rem;
   width: 4rem;
   margin: auto;
-  padding: 1.25rem;
+  padding-top: 1.4rem;
   border-radius: 50%;
   text-align: center;
+  cursor: pointer;
   background-color: #262f38;
+  color: #7a828d;
+  font-family: var(--font-family);
+}
+
+.rating-number_container li:hover {
+  background-color: var(--color-lightgrey);
+  color: var(--color-white);
 }
 
 .rating-number_container li span {
-  color: #7a828d;
-  font-family: var(--font-family);
+  user-select: none;
 }
 
 /*Rating Button Section */
@@ -62,6 +69,7 @@
   height: 4rem;
   color: var(--color-white);
   letter-spacing: 2px;
+  margin-bottom: 35px;
   font-size: 20px;
   border-radius: 50px;
   font-family: var(--font-family);
