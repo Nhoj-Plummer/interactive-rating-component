@@ -1,0 +1,37 @@
+.output-result-img_container {
+  margin: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.output-result-img_container img {
+  width: 230px;
+  height: 170px;
+}
+
+.output-message-text {
+  max-height: 2rem;
+  max-width: 13rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  padding-top: 0.313rem;
+  padding-bottom: 0.313rem;
+  color: var(--color-orange);
+  font-family: var(--font-family);
+  background: #272e38;
+}
+
+.output-credit-text {
+  font-size: 2.5rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.output-appreciation-text {
+  border: 1px solid;
+}
