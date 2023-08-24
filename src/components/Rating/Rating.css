@@ -89,3 +89,8 @@
   background: var(--color-orange);
   cursor: pointer;
 }
+
+.rating-button-container button:hover {
+  background-color: var(--color-white);
+  color: var(--color-orange);
+}
