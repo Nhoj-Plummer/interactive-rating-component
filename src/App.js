@@ -1,6 +1,7 @@
 import "./App.css"
 import { useState } from "react"
-import { Output, Rating } from "./components"
+import Rating from "./components/Rating/rating"
+import Output from "./components/Output/output"
 
 function App() {
   const [showOutputPage, setShowOutputPage] = useState(false)
